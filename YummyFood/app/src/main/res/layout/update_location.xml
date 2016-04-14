@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/grey"
+        android:paddingBottom="30dp">
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="back"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:padding="10dp"
+            android:onClick="gotoMain"/>-->
+
+    <ImageView
+        android:paddingTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/logos"
+        android:layout_gravity="center_horizontal"
+        />
+        <TextView
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FoodYummy"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold|normal"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <TextView
+            android:paddingTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHOOSE LOCATION AND START SEARCHING"
+            android:layout_marginBottom="30dp"/>
+
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#DCDCDC"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:onClick="selectCity">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Select city"
+                android:textAppearance="?android:textAppearanceSmall"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+            <TextView
+                android:layout_weight="0.9"
+                android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Current city"
+
+            android:id="@+id/textView"
+            android:textColor="@color/black"
+            android:layout_marginBottom="5dp"/>
+
+                <ImageView
+                    android:layout_weight="0.1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageVi"
+
+
+                    android:src="@drawable/location" />
+            </LinearLayout>
+
+      </LinearLayout>
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#DCDCDC"
+            android:layout_gravity="center"
+            android:onClick="selectArea">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_horizontal"
+                android:text="Select Area"
+
+                android:textAppearance="?android:textAppearanceSmall"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Current area"
+                android:textColor="@color/black"
+                android:id="@+id/textV" />
+            </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Find Restuarant"
+            android:id="@+id/updateLocationInMain"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/colorPrimaryDark"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

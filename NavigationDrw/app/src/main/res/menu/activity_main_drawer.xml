@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_fragments"
+            android:icon="@mipmap/latest"
+            android:title="Fragments" />
+        <item
+            android:id="@+id/nav_recyclrv"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="RecyclerView" />
+        <item
+            android:id="@+id/nav_glide"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Glide" />
+        <item
+            android:id="@+id/nav_maps"
+            android:icon="@mipmap/mark"
+            android:title="GoogleMaps" />
+    </group>
+
+    <item android:title="Actions">
+        <menu>
+            <item
+                android:id="@+id/nav_delete"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Delete" />
+            <item
+                android:id="@+id/nav_save"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Save" />
+        </menu>
+    </item>
+
+</menu>

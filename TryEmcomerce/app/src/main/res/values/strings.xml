@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TryEmcomerce</string>
+
+    <string name="shoppingicon">SHOPPING</string>
+    <string name="location">LOCATION</string>
+    <string name="chaticon">CHAT</string>
+
+    <string name="location_hint">Notifications based on location</string>
+    <string name="shoppingicon_hint">Shopping on the go ! through the app</string>
+    <string name="chat_hint">Chatting between the users of the app</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+</resources>

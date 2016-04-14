@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_id": "gmail-8e789",
+    "project_number": "819499442566",
+    "name": "Gmail"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819499442566:android:90cdc678c0421c58",
+        "client_id": "android:com.example.agi51.gmail",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.example.agi51.gmail"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "819499442566-rpelojkepccemctq1njl179jvoeik0gd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.agi51.gmail",
+            "certificate_hash": "7A9BD921EC0C2C837103493980C9FC28161EDFB2"
+          }
+        },
+        {
+          "client_id": "819499442566-mq2frpfugsr0q31r1l85lf40ggssraf9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

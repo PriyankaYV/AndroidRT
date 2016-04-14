@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_id": "yummyfood-1e074",
+    "project_number": "71270880519",
+    "name": "YummyFood"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71270880519:android:9b76fcaca968d8ae",
+        "client_id": "android:com.example.agi51.yummyfood",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.example.agi51.yummyfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71270880519-9iel31vm2894b5603t23jivjvnn3j8e3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.agi51.yummyfood",
+            "certificate_hash": "7A9BD921EC0C2C837103493980C9FC28161EDFB2"
+          }
+        },
+        {
+          "client_id": "71270880519-3es3i1cv021mo0n7maiiqihvrtcj9nqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

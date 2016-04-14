@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="landing_bg">
+        <item>@color/green</item>
+        <item>@color/darkgreen</item>
+        <item>@color/orange</item>
+        <item>@color/purple</item>
+
+
+    </array>
+
+    <array name="icons">
+        <item>@drawable/logofinal</item>
+        <item>@mipmap/splashbackground</item>
+        <item>@drawable/demosplash</item>
+    </array>
+
+
+    <string-array name="titles" >
+        <item>@string/maine</item>
+        <item>@string/secon</item>
+        <item>@string/cop</item>
+
+    </string-array>
+
+    <string-array name="hints" >
+        <item>@string/undermaine</item>
+        <item>@string/secontitle</item>
+        <item>@string/copi</item>
+
+    </string-array>
+
+</resources>

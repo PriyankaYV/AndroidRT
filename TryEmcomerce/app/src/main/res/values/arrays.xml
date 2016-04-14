@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <array name="landing_bg">
+        <item>@color/light_green</item>
+        <item>@color/light_purple</item>
+        <item>@color/light_cyan</item>
+        <item>@color/light_orange</item>
+
+
+    </array>
+
+    <array name="icons">
+        <item>@drawable/shoppingicon</item>
+        <item>@drawable/locationicon</item>
+        <item>@drawable/chaticon</item>
+    </array>
+
+
+    <string-array name="titles" >
+        <item>@string/shoppingicon</item>
+        <item>@string/location</item>
+        <item>@string/chaticon</item>
+
+    </string-array>
+
+    <string-array name="hints" >
+        <item>@string/shoppingicon_hint</item>
+        <item>@string/location_hint</item>
+        <item>@string/chat_hint</item>
+
+    </string-array>
+
+</resources>

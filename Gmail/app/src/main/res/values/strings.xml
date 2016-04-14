@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Gmail</string>
+    <string name="signed_in_fmt">Login to gmail is Sucess</string>
+    <string name="signed_out">Opps..!!You are signed out now..!</string>
+    <string name="loading">Please wait..!</string>
+</resources>

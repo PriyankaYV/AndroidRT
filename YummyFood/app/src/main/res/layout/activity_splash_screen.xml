@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/splashbackground"
+    tools:context=".Activities.Activities.SplashScreenActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logofinal"
+        android:paddingTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/idtitleimg"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/title"
+        android:textSize="40dp"
+        android:textColor="@color/green"
+        android:id="@+id/idTitleText"
+        android:textStyle="bold"
+        android:paddingTop="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/heading"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:id="@+id/idHeading"
+        android:textStyle="italic"
+        android:paddingTop="20dp"/>
+</LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/splashTitle"
+        android:textSize="35dp"
+        android:background="#000000"
+        android:alpha="0.5"
+        android:textColor="@color/darkgreen"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold|italic"
+        android:id="@+id/tvcenter"/>
+
+    <!-- <TextView
+         android:layout_width="match_parent"
+         android:layout_height="91dp"
+         android:textAlignment="center"
+         android:text="@string/splashpop"
+         android:textSize="20dp"
+         android:textColor="@color/white"
+         android:textStyle="italic"
+         android:id="@+id/tvpopup"/>-->
+
+
+</RelativeLayout>

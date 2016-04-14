@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorPrimary"
+    android:fitsSystemWindows="true">
+
+<LinearLayout
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:paddingTop="56dp"
+android:paddingLeft="24dp"
+android:paddingRight="24dp">
+
+<ImageView android:src="@mipmap/ic_launcher"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_marginBottom="24dp"
+    android:scaleType="fitXY"
+    android:layout_gravity="center_horizontal" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:id="@+id/UserName"
+            android:textColor="#FFFFFF"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="password"
+            android:id="@+id/Paswrd"
+            android:textColor="#FFFFFF"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/Login"
+        android:onClick="startLogin"/>
+
+<android.support.v7.widget.AppCompatButton
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Explore"
+    android:id="@+id/withoutPaswrd"
+    android:onClick="startLogin"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/registerId"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="No Account Yet? Create one?"
+        android:onClick="openRegister"/>
+
+    </LinearLayout>
+
+</ScrollView>

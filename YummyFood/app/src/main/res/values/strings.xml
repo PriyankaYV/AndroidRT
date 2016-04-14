@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">YummyFood</string>
+    <string name="title">FOODYUMMMY</string>
+    <string name="splashTitle">Order from 100+ Restaurants in Hyderabad!</string>
+    <string name="heading">Discover local restaurants in Hyderabad that deliver to your doorstep.</string>
+
+    <string name="maine">Welcome To FOODYUMMMY</string>
+    <string name="undermaine">foodyummy, together with its affiliated brands hellofood and Delivery Club, is one of the world’s largest online food ordering marketplaces..</string>
+
+    <string name="secon"> Our Working Place</string>
+    <string name="secontitle"> We are a highly motivated and talented team, driven by the ambition to become the global synonym for online food ordering.
+
+We offer exceptional opportunities for initiative, responsibility and leadership in a multinational environment with entrepreneurs from over 40 nationalities. We launched our first market, Madhapur, in 2015 and are headquartered in Madhapur. Currently we are active in more than 40 areas in Gachchibowli, Begumpet, Ameerpet, Chandanagar and S R Nagar.</string>
+
+    <string name="cop">Eat what you like</string>
+    <string name="copi">Like what you eat</string>
+
+    <string name="fbi">Instant Facebook Connect</string>
+
+    <string name="gmaili">Instant Gmail Connect</string>
+
+    <string name="protect">100% Privacy Protection.Promise!</string>
+    <string name="protecthint">By creating an account, you agree to FOODYUMMMY Terms of Service</string>
+
+    <string name="signed_in_fmt">Login to gmail is Sucess</string>
+    <string name="signed_out">Opps..!!You are signed out now..!</string>
+    <string name="loading">Please wait..!</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_menu">MenuActivity</string>
+
+</resources>
